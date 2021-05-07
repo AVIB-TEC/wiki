@@ -164,13 +164,5 @@ If you encounter an error of connection when trying to acces the webpage similar
 Neo4jError: WebSocket connection failure. Due to security constraints in your web browser, the reason for the failure is not available to this Neo4j Driver. Please use your browsers development console to determine the root cause of the failure. Common reasons include the database being unavailable, using the wrong connection URL or temporary network problems. If you have enabled encryption, ensure your browser is configured to trust the certificate Neo4j is configured to use. WebSocket `readyState` is: 3
 ```
 
-Download this file from the pod :
-`kubectl cp default/avib-graph-neo4j-core-0:/var/lib/neo4j/conf/neo4j.conf ./neo4j.conf`
-
-edit it to add the next fields:
-
-
-`kubectl cp ./neo4j.conf default/avib-graph-neo4j-core-0:/var/lib/neo4j/conf/neo4j.conf`
-
-`kubectl exec --stdin --tty avib-graph-neo4j-core-0 -- /bin/bash`
+You might have to enable Azure to expose the ports being used by Neo4j. Another posible solution to this error is to access using the IP instead of the DNS name. 
 
