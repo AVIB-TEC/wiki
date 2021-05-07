@@ -1,0 +1,24 @@
+docker run   --name=olbapd-neo4j  --publish=7474:7474 --publish=7473:7473 --publish=7687:7687 -it --env=NEO4J_ACCEPT_LICENSE_AGREEMENT=yes --env=NEO4J_AUTH=neo4j/admin neo4j:4.0.0-enterprise
+
+--STOP THE CONTAINER
+--RUN THE CONTAINER FROM VSCode
+
+docker exec -it olbapd-neo4j cypher-shell -u neo4j -p admin -d system
+
+-SHOW DATABASES;
+-STOP DATABASE neo4j
+-:exit
+
+--Copy files into container 
+docker cp C:\Users\pablo\Downloads\graph.db olbapd-neo4j:/var/lib/neo4j
+
+now to dump the files in the database: 
+docker exec -it olbapd-neo4j neo4j-admin load --verbose --from=/var/lib/neo4j/graph.db --force
+
+
+
+
+
+Reference:
+https://markhneedham.com/blog/2020/01/28/neo4j-database-dump-docker-container/
+
