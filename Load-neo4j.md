@@ -16,11 +16,11 @@ Then stop the `neo4j` database or the default one being used with the following 
 
 Change the path to match your dump file with the database to load.
 
-`docker cp C:\Users\pablo\Downloads\neo4j-20210316.dump olbapd-neo4j:/var/lib/neo4j`
+`docker cp C:\Users\pablo\Downloads\neo4j-20210323.dump olbapd-neo4j:/var/lib/neo4j`
 
 # Step 4: Create the database from the dump file
 
-`docker exec -it olbapd-neo4j neo4j-admin load --verbose --from=/var/lib/neo4j/neo4j-20210316.dump --force --database=graph.db`
+`docker exec -it olbapd-neo4j neo4j-admin load --verbose --from=/var/lib/neo4j/neo4j-20210323.dump --force --database=graph.db`
 
 # Step 5: Start the database
 
