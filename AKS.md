@@ -26,7 +26,7 @@ Create a Container Registry on Azure. Make sure to use the standard plan since w
 
 ## Create the CD/CI from VSCode
 
-Generate the a PAT (Personal Access Token) on GitHub. For the install the Azure Deploy on VSCode and then right click on the Azure Subscription on the Kubernetes extension.
+Generate the a PAT (Personal Access Token) on GitHub. Go to settings of your account and click on developer settings, then click on Personal access token (PAT). For the install the Azure Deploy on VSCode and then right click on the Azure Subscription on the Kubernetes extension.
 
 avibregistry
 
