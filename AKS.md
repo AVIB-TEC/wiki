@@ -168,7 +168,6 @@ Once the file is copied in the pod follow similar steps to the `Load-neo4j.md` i
 4. `cypher-shell -u neo4j -p admin -d system 'CREATE DATABASE neo4'`
 5. `cypher-shell -u neo4j -p admin -d system 'START DATABASE neo4j'`
 
-
 ## Possible errors
 
 If you encounter an error of connection when trying to acces the webpage similar to this one. 
@@ -178,3 +177,26 @@ Neo4jError: WebSocket connection failure. Due to security constraints in your we
 
 You might have to enable Azure to expose the ports being used by Neo4j. Another posible solution to this error is to access using the IP instead of the DNS name. 
 
+# Stopping Azure Kubernetes Services
+
+`az aks stop --name AVIB-Cluster --resource-group AVIB-RSRCG`
+
+Confirm using `az aks show`. You should see 
+
+```
+"powerState":{
+     "code":"Stopped"
+  },
+```
+
+# Starting Azure Kubernetes Services
+
+`az aks start --name AVIB-Cluster --resource-group AVIB-RSRCG`
+
+Confirm using `az aks show`. You should see 
+
+```
+"powerState":{
+    "code":"Running"
+  },
+```
