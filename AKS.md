@@ -181,7 +181,7 @@ You might have to enable Azure to expose the ports being used by Neo4j. Another 
 
 `az aks stop --name AVIB-Cluster --resource-group AVIB-RSRCG`
 
-Confirm using `az aks show`. You should see 
+Confirm using `az aks show --name AVIB-Cluster --resource-group AVIB-RSRCG`. You should see 
 
 ```
 "powerState":{
@@ -193,7 +193,7 @@ Confirm using `az aks show`. You should see
 
 `az aks start --name AVIB-Cluster --resource-group AVIB-RSRCG`
 
-Confirm using `az aks show`. You should see 
+Confirm using `az aks show --name AVIB-Cluster --resource-group AVIB-RSRCG`. You should see 
 
 ```
 "powerState":{
