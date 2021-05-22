@@ -2,6 +2,9 @@
 
 When creating the Kubernetes Cluster make sure you pick the VM-size of Standard_D11_v2 with a node pool of 1. This will make it available for the free credit. 
 
+## Create Resource Group
+
+Use the name `AVIB-RSRCG` for the resource group.
 
 ## Create Namespace
 
