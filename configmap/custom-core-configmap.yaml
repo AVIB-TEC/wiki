@@ -11,15 +11,15 @@ metadata:
 data:
   NEO4J_ACCEPT_LICENSE_AGREEMENT: "yes"
   NEO4J_dbms_mode: CORE
-  avib-graph_neo4j_core_0_NEO4J_dbms_default__advertised__address: 13.72.82.9
-  avib-graph_neo4j_core_0_NEO4J_dbms_connector_bolt_advertised__address: 13.72.82.9:7687
-  avib-graph_neo4j_core_0_NEO4J_dbms_connector_http_advertised__address: 13.72.82.9:7474
-  avib-graph_neo4j_core_0_NEO4J_dbms_connector_https_advertised__address: 13.72.82.9:7473
-  avib-graph_neo4j_core_1_NEO4J_dbms_default__advertised__address: 13.72.82.129
-  avib-graph_neo4j_core_1_NEO4J_dbms_connector_bolt_advertised__address: 13.72.82.129:7687
-  avib-graph_neo4j_core_1_NEO4J_dbms_connector_http_advertised__address: 13.72.82.129:7474
-  avib-graph_neo4j_core_1_NEO4J_dbms_connector_https_advertised__address: 13.72.82.129:7473
-  avib-graph_neo4j_core_2_NEO4J_dbms_default__advertised__address: 13.68.244.173
-  avib-graph_neo4j_core_2_NEO4J_dbms_connector_bolt_advertised__address: 13.68.244.173:7687
-  avib-graph_neo4j_core_2_NEO4J_dbms_connector_http_advertised__address: 13.68.244.173:7474
-  avib-graph_neo4j_core_2_NEO4J_dbms_connector_https_advertised__address: 13.68.244.173:7473
+  avib-graph_neo4j_core_0_NEO4J_dbms_default__advertised__address: 20.97.26.116
+  avib-graph_neo4j_core_0_NEO4J_dbms_connector_bolt_advertised__address: 20.97.26.116:7687
+  avib-graph_neo4j_core_0_NEO4J_dbms_connector_http_advertised__address: 20.97.26.116:7474
+  avib-graph_neo4j_core_0_NEO4J_dbms_connector_https_advertised__address: 20.97.26.116:7473
+  avib-graph_neo4j_core_1_NEO4J_dbms_default__advertised__address: 20.97.25.241
+  avib-graph_neo4j_core_1_NEO4J_dbms_connector_bolt_advertised__address: 20.97.25.241:7687
+  avib-graph_neo4j_core_1_NEO4J_dbms_connector_http_advertised__address: 20.97.25.241:7474
+  avib-graph_neo4j_core_1_NEO4J_dbms_connector_https_advertised__address: 20.97.25.241:7473
+  avib-graph_neo4j_core_2_NEO4J_dbms_default__advertised__address: 20.97.27.89
+  avib-graph_neo4j_core_2_NEO4J_dbms_connector_bolt_advertised__address: 20.97.27.89:7687
+  avib-graph_neo4j_core_2_NEO4J_dbms_connector_http_advertised__address: 20.97.27.89:7474
+  avib-graph_neo4j_core_2_NEO4J_dbms_connector_https_advertised__address: 20.97.27.89:7473

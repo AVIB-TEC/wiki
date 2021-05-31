@@ -9,7 +9,7 @@ metadata:
     statefulset.kubernetes.io/pod-name: avib-graph-neo4j-core-1
   name: avib-graph-neo4j-external-1
 spec:
-  loadBalancerIP: 13.72.82.129
+  loadBalancerIP: 20.97.25.241
   externalTrafficPolicy: Local
   ports:
   - name: bolt
